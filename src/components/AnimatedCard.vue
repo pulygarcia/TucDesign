@@ -5,8 +5,8 @@ import IconArrowGrowUp from './icons/IconArrowGrowUp.vue'
 import imag1 from '@/assets/slider-1.jpg'
 import imag2 from '@/assets/slider-2.jpg'
 import imag3 from '@/assets/slider-3.jpg'
-import imag4 from '@/assets/trigger-1.avif'
-import imag5 from '@/assets/trigger-2.avif'
+import imag4 from '@/assets/slider-4.jpg'
+import imag5 from '@/assets/slider-5.jpg'
 
 const buttonRef = ref<HTMLElement | null>(null)
 const titleRef = ref<HTMLElement | null>(null)
@@ -72,16 +72,16 @@ onMounted(() => {
     ></div>
     <div class="col-span-12 relative z-20 md:col-span-6 lg:py-10">
       <h2 ref="titleRef" class="text-3xl md:text-4xl lg:text-5xl">
-        Welcome to Tokyo, the most vibrant city in the world Tokyo sets the pace for the future of urban living
+        Bienvenidos a Tucumán Design, Arquitectura e interiorismo.
       </h2>
       <p ref="paragraphRef" class="mt-12">
-        Welcome to Tokyo, the most vibrant city in the world
-        Tokyo sets the pace for the future of urban living—through the lens of culture, cutting-edge technology, and endless exploration
+        Tucumán Design es el destino ideal para quienes buscan transformar sus espacios con sofisticación y estilo. 
+        Fusionamos la innovación en arquitectura con una cuidada selección de muebles, iluminación y mucho más. Cada detalle está diseñado para realzar tu entorno, creando el equilibrio perfecto entre funcionalidad y estética.
       </p>
       <button 
         ref="buttonRef"
         class="bg-black inline-flex gap-2 text-white py-4 px-5 mt-12 rounded-lg">
-        How to travel in Tokyo
+        Contacto
         <IconArrowGrowUp/>
       </button>
     </div>

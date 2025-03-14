@@ -6,14 +6,11 @@
         to="/" 
         class="flex items-center mb-5 md:mb-0 rtl:space-x-reverse text-3xl md:text-5xl"
       >
-        Tokyo city
+        Tucumán Design
       </router-link>
       <ul class="flex flex-wrap items-center mb-6 text-sm font-medium sm:mb-0 ">
         <li>
-          <router-link  to="/about" class="hover:underline me-4 md:me-6">About</router-link>
-        </li>
-        <li>
-          <router-link  to="/Places-touristiques" class="hover:underline me-4 md:me-6">Tourist areas</router-link>
+          <router-link  to="/about" class="hover:underline me-4 md:me-6">Sobre nosotros</router-link>
         </li>
         <li>
           <router-link  to="/contact" class="hover:underline">Contact</router-link>
@@ -22,11 +19,11 @@
     </div>
     <hr class="my-6 border-gray-300 sm:mx-auto lg:my-8" />
     <span class="block text-sm sm:text-center">
-      © 2024
+      © 2025
       <router-link  to="/" class="hover:underline">
-        Tokyo city
+        Tucumán Design - 
       </router-link>
-      All Rights Reserved.
+      Hecho por <a href="https://portfolio-puly-v4.vercel.app/" class="underline text-blue-600">Puly García</a>
     </span>
   </div>
 </footer>

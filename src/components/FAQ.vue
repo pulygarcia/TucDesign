@@ -16,23 +16,23 @@ useTitleAnimation(faqRef, 1.5)
 
 const faqs = ref([
   {
-    question: "What is the best time to visit Tokyo?",
-    answer: "The best time to visit Tokyo is between March and April (spring) or September and November (autumn) when the weather is mild and comfortable.",
+    question: "Como puedo cotizar el trabajo que necesito?",
+    answer: "Nosotros lo cotizamos ",
     isOpen: false,
   },
   {
-    question: "How can I get around Tokyo?",
-    answer: "Tokyo has an excellent public transportation system, including trains, subways, and buses. The JR Pass is a good option for tourists to save on train fares.",
+    question: "Como puedo cotizar el trabajo que necesito?",
+    answer: "Tokyo has an excellent public transportation system, including trains",
     isOpen: false,
   },
   {
-    question: "Do I need a visa to visit Tokyo?",
-    answer: "Visa requirements depend on your nationality. Many countries have visa-free agreements with Japan for short-term visits.",
+    question: "Como puedo cotizar el trabajo que necesito?",
+    answer: "Visa ",
     isOpen: false,
   },
   {
-    question: "What are the must-visit places in Tokyo?",
-    answer: "Tokyo's top attractions include the Tokyo Skytree, Senso-ji Temple, Shibuya Crossing, and the Meiji Shrine.",
+    question: "Como puedo cotizar el trabajo que necesito?",
+    answer: "Tokyo'",
     isOpen: false,
   },
 ])
@@ -65,13 +65,13 @@ onMounted(() => {
   <section>
     <div class="2xl:container 2xl:mx-auto md:py-12 lg:px-20 md:px-6 py-9 px-4">
       <h2 ref="titleRef1" class="lg:text-6xl md:text-4xl text-3xl lg:leading-9 md:leading-7 leading-9">
-        Frequently Asked Questions
+        Preguntas Frecuentes
       </h2>
       <div class="flex md:flex-row flex-col md:space-x-8 md:mt-16 mt-8">
         <div ref="imageRef" class="md:w-5/12 lg:w-4/12 w-full">
           <img 
-            src="https://images.unsplash.com/photo-1548783307-f63adc3f200b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHRva3lvfGVufDB8fDB8fHwwg" 
-            alt="Tokyo City" 
+            src="https://static-wc.arcux.net/uploads/20200529130551/la-arquitectura-1.jpg" 
+            alt="Arquitectura imagen" 
             class="w-full h-[18rem] object-cover rounded-lg" 
           />
         </div>

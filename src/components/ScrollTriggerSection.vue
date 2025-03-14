@@ -2,12 +2,11 @@
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { onMounted, onUnmounted, ref, nextTick } from 'vue'
-import imageTrigger1 from '@/assets/trigger-1.avif'
-import imageTrigger2 from '@/assets/trigger-2.avif'
-import imageTrigger3 from '@/assets/trigger-3.avif'
-import imageTrigger4 from '@/assets/trigger-4.avif'
-import imageTrigger5 from '@/assets/trigger-5.avif'
-import imageTrigger6 from '@/assets/trigger-6.avif'
+import imageTrigger1 from '@/assets/scroll-image-1.jpg'
+import imageTrigger2 from '@/assets/scroll-image-2.png'
+import imageTrigger3 from '@/assets/scroll-image-3.jpg'
+import imageTrigger4 from '@/assets/scroll-image-4.jpg'
+import imageTrigger5 from '@/assets/scroll-image-5.jpg'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -62,12 +61,11 @@ onUnmounted(() => {
 })
 
 const slides = [
-  { id: 'one', color: 'bg-black', image: imageTrigger1, title: 'Welcome to Tokyo', subtitle: 'Live the beauty' },
-  { id: 'two', color: 'bg-orange-700', image: imageTrigger2, title: 'Explore the Night', subtitle: 'Discover hidden gems' },
-  { id: 'three', color: 'bg-emerald-700', image: imageTrigger3, title: 'Nature Awaits', subtitle: 'Embrace the wild' },
-  { id: 'four', color: 'bg-indigo-700', image: imageTrigger4, title: 'Journey Ahead', subtitle: 'Adventure calls' },
-  { id: 'five', color: 'bg-pink-700', image: imageTrigger5, title: 'Taste the Culture', subtitle: 'Savor every bite' },
-  { id: 'six', color: 'bg-teal-700', image: imageTrigger6, title: 'Art in Every Corner', subtitle: 'Get inspired' },
+  { id: 'one', color: 'bg-black', image: imageTrigger1, title: 'Tucumán Design', subtitle: 'Arquitectura e interiorismo' },
+  { id: 'two', color: 'bg-orange-700', image: imageTrigger2, title: 'Animáte', subtitle: 'Mirá tu hogar como nunca' },
+  { id: 'three', color: 'bg-emerald-700', image: imageTrigger3, title: 'Diseño único', subtitle: 'Modernismo y calidad' },
+  { id: 'four', color: 'bg-indigo-700', image: imageTrigger4, title: 'Minimalismo', subtitle: 'Innovación minimalista' },
+  { id: 'five', color: 'bg-pink-700', image: imageTrigger5, title: 'Materiales', subtitle: 'Productos de alta calidad' },
 ]
 </script>
 
@@ -82,9 +80,7 @@ const slides = [
       >
         <div class="md:col-span-3 col-span-6 mt-10 md:mt-0 relative w-full">
           <div class="flex w-full gap-3 justify-center items-center">
-            <p>{{ String(currentSlideIndex).padStart(2, '0') }}</p>
-            <p class="h-[1px] bg-white w-full"></p>
-            <p>{{ String(slides.length).padStart(2, '0') }}</p>
+            <p>Tucumán Design</p>
           </div>
         </div>
         <div class="col-span-12 md:col-span-8 relative">
@@ -100,7 +96,7 @@ const slides = [
             <h1 class="text-3xl md:text-6xl lg:text-[6rem] font-medium">{{ slide.title }}</h1>
             <h1 class="text-3xl md:text-6xl lg:text-[6rem] font-medium text-strok">{{ slide.subtitle }}</h1>
           </div>
-          <p class="text-lg md:text-xl lg:text-2xl top-5">In Tokyo Dream and live</p>
+          <p class="text-lg md:text-xl lg:text-2xl top-5">Por Guillermo Argañaraz</p>
         </div>
       </div>
     </div>
