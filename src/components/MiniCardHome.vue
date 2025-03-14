@@ -4,7 +4,6 @@ import img2 from '@/assets/slider-2.jpg'
 import img3 from '@/assets/slider-3.jpg'
 import img4 from '@/assets/slider-4.jpg'
 import img5 from '@/assets/slider-5.jpg'
-import img6 from '@/assets/trigger-6.avif'
 import { ref, onMounted } from 'vue'
 import { gsap } from 'gsap'
 
@@ -37,7 +36,7 @@ const cards = [
   {
     title: "Atención personalizada",
     description: "Cada proyecto es único, y nos aseguramos de darte la atención necesaria para que tus ideas se vean reflejadas en él.",
-    image: img6,
+    image: img5,
   }
 ]
 
