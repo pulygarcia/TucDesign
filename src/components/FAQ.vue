@@ -15,24 +15,29 @@ useTitleAnimation(imageRef, 1)
 useTitleAnimation(faqRef, 1.5)
 
 const faqs = ref([
-  {
-    question: "Como puedo cotizar el trabajo que necesito?",
-    answer: "Nosotros lo cotizamos ",
+{
+    question: "¿Cómo puedo solicitar una cotización para mi proyecto?",
+    answer: "Puedes contactarnos via Whatsapp, llamarnos o visitarnos en nuestro local. Agendaremos una reunión para conocer tus necesidades y brindarte un presupuesto personalizado.",
     isOpen: false,
   },
   {
-    question: "Como puedo cotizar el trabajo que necesito?",
-    answer: "Tokyo has an excellent public transportation system, including trains",
+    question: "¿Qué servicios ofrecen?",
+    answer: "Ofrecemos diseño de interiores, arquitectura, planificación de espacios y venta de mobiliario exclusivo. También brindamos asesoramiento personalizado para cada proyecto.",
     isOpen: false,
   },
   {
-    question: "Como puedo cotizar el trabajo que necesito?",
-    answer: "Visa ",
+    question: "¿Realizan envíos de muebles a domicilio?",
+    answer: "Sí, realizamos envíos a domicilio. Dependiendo de la ubicación, los costos de envío pueden variar. Contáctanos para más detalles.",
     isOpen: false,
   },
   {
-    question: "Como puedo cotizar el trabajo que necesito?",
-    answer: "Tokyo'",
+    question: "¿Pueden hacer muebles a medida?",
+    answer: "Sí, diseñamos y fabricamos muebles a medida según las necesidades y preferencias de cada cliente.",
+    isOpen: false,
+  },
+  {
+    question: "¿Cuánto tiempo tarda un proyecto de diseño de interiores?",
+    answer: "El tiempo varía según la complejidad del proyecto, pero en general, un diseño puede tardar entre 2 y 3 semanas, mientras que la ejecución puede llevar meses.",
     isOpen: false,
   },
 ])

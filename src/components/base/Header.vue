@@ -1,19 +1,13 @@
 <script setup lang="ts">
-import { ref, onUnmounted } from "vue"
+import { ref } from "vue"
 import gsap from "gsap"
 import IconBars from "@/components/icons/IconBars.vue"
 import IconClose from "@/components/icons/IconClose.vue"
 import IconInstagram from "@/components/icons/IconInstagram.vue"
 import IconX from "@/components/icons/IconX.vue"
 import IconArrowGrowUp from "@/components/icons/IconArrowGrowUp.vue"
-import PopupFull from '@/components/popups/PopupFull.vue'
-import Input from "../Form/Input.vue"
 
-const showPopup = ref(false)
 const isMenuOpen = ref(false)
-const showHover = ref(false)
-const hoverContent = ref<'whyTokyo' | 'places' | null>(null)
-const hoverComponentRef =  ref<HTMLElement | null>(null);
 
 function open_menu() {
   isMenuOpen.value = true;
@@ -147,7 +141,6 @@ const leave = (event: MouseEvent) => {
       </div>
     </div>
   </header>
-    <Input/>
 </template>
 <style scoped>
 .container--menu,
