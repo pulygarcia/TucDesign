@@ -71,7 +71,7 @@ const menuItems = [
   { name: 'Sobre nosotros', route: '/about' },
   { name: 'Clientes', route: '/testimonials' },
   { name: 'Trabajos realizados', route: '/done-works' },
-  { name: 'Contact', route: '/contact' }
+  { name: 'Contacto', route: '/contact' }
 ]
 
 const enter = (event: MouseEvent) => {
@@ -94,7 +94,7 @@ const leave = (event: MouseEvent) => {
     >
       <ul class="fixed px-5 md:px-20  bg-white shadow-md backdrop-blur-sm items-center w-full flex justify-between py-3 space-x-5 z-50">
         <li class="cursor-pointer">
-          <router-link to="/" class="text-3xl">Tucuman Desing <span class="block text-xs text-gray-700">Guillermo Argañaraz</span></router-link>
+          <router-link to="/" class="text-3xl">Tucuman Design <span class="block text-xs text-gray-700">Guillermo Argañaraz</span></router-link>
         </li>
         <li>
           <ul class="flex space-x-10">
