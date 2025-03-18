@@ -74,17 +74,30 @@ useTitleAnimation(cardsRef, 1)
       <div class="flex justify-center flex-col items-center space-y-3">
         <h1 class="text-xl">Redes sociales</h1>
         <ul>
-          <li><a href="">Instagram</a></li>
-          <li><a href="">Facebook</a></li>
+          <li><a href="https://www.instagram.com/tucumandesign/">Instagram</a></li>
+          <li><a href="https://www.facebook.com/tucumandesign?locale=es_LA">Facebook</a></li>
         </ul>
       </div>
     </div>
   </section>
-  <section ref="titleRef4" class="grid grid-cols-12 gap-5 overflow-hidden px-5 relative md:px-20">
-    <div class="map-container col-span-12 md:col-span-6 rounded-lg relative z-10">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3544.083479919973!2d-65.5950256235038!3d-27.341858511273223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9423cf424532d54f%3A0xda76d5cc16540984!2sDr.%20Nicol%C3%A1s%20Avellaneda%20362%2C%20T4146%20Concepci%C3%B3n%2C%20Tucum%C3%A1n!5e0!3m2!1ses-419!2sar!4v1742321171467!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-  </section>
+  <section ref="titleRef4" class="flex flex-col md:flex-row gap-5 overflow-hidden px-5 relative md:px-20">
+  <!-- map -->
+  <div class="w-full md:w-1/2 rounded-lg relative z-10">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3543.892234622653!2d-65.59817942350354!3d-27.347837411526832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9423cf6790c4488b%3A0x1b22b5798a8bef27!2sShipton%201645%2C%20T4146%20Concepci%C3%B3n%2C%20Tucum%C3%A1n!5e0!3m2!1ses-419!2sar!4v1742325586858!5m2!1ses-419!2sar"
+      class="w-full h-64 md:h-full"
+      style="border:0;"
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+
+  <!-- local image -->
+  <div class="w-full md:w-1/2 rounded-lg relative z-10">
+    <img src="../assets/local.jpg" alt="Local" class="w-full h-64 md:h-full object-cover rounded-lg">
+  </div>
+</section>
+
   <TextScroll/>
   <FAQ/>
   <Footer/>

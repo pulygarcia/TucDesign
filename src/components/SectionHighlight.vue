@@ -62,7 +62,7 @@ onMounted(() => {
       <button class="bg-white py-3 px-5 rounded-md mt-5">Contactar</button>
     </div>
     <div class="col-span-12 md:col-span-5 flex flex-col w-full h-full relative">
-      <img src="@/assets/slider-5.jpg" alt="" class="rounded-lg my-20 h-full w-full object-cover"> <!-- Ajout de object-cover pour l'image -->
+      <img src="@/assets/local.jpg" alt="" class="rounded-lg my-20 h-full w-full object-cover">
     </div>
   </section>
 </template>
