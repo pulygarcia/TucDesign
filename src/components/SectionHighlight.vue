@@ -53,7 +53,7 @@ onMounted(() => {
     <div class="col-span-12 md:col-span-7 mb-5">
       <div class="text-white flex justify-between text-xs">
         <p>Conocé Tucumán Design</p>
-        <p>Reflejá tus ideas en tu hogar</p>
+        <p>Reflejá tus ideas en cualquier espacio</p>
       </div>
       <h1 class="text-heading-1 mt-20">Conocé la esencia de Tucumán Design</h1>
       <p class="text-lg md:text-xl text-white my-10">

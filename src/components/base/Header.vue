@@ -4,7 +4,7 @@ import gsap from "gsap"
 import IconBars from "@/components/icons/IconBars.vue"
 import IconClose from "@/components/icons/IconClose.vue"
 import IconInstagram from "@/components/icons/IconInstagram.vue"
-import IconX from "@/components/icons/IconX.vue"
+import IconWhatsapp from "@/components/icons/IconWhatsapp.vue"
 import IconArrowGrowUp from "@/components/icons/IconArrowGrowUp.vue"
 
 const isMenuOpen = ref(false)
@@ -101,10 +101,14 @@ const leave = (event: MouseEvent) => {
             <li class="cursor-pointer hidden md:flex">
               <ul class="flex space-x-7 text-lg">
                 <li class="border-b-4 py-3 border-transparent">
-                  <IconInstagram class="w-7 h-7 relative z-10"/>
+                  <a href="https://www.instagram.com/tucumandesign/" target="_blank">
+                    <IconInstagram class="w-7 h-7 relative z-10"/>
+                  </a>
                 </li>
                 <li class="border-b-4 py-3 border-transparent">
-                  <IconX class="w-7 h-7 relative z-10"/>
+                  <a href="https://wa.me/3815429673?text=Hola%2C%20quiero%20más%20información%20sobre%20sus%20servicios" target="_blank">
+                    <IconWhatsapp class="text-green-600 w-7 h-7 relative z-10"/>
+                  </a>
                 </li>
               </ul>
             </li>

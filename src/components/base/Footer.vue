@@ -10,10 +10,10 @@
       </router-link>
       <ul class="flex flex-wrap items-center mb-6 text-sm font-medium sm:mb-0 ">
         <li>
-          <router-link  to="/about" class="hover:underline me-4 md:me-6">Sobre nosotros</router-link>
+          <router-link  to="/about" class="hover:underline me-4 md:me-6">Inicio</router-link>
         </li>
         <li>
-          <router-link  to="/contact" class="hover:underline">Contact</router-link>
+          <router-link  to="/contact" class="hover:underline">Contacto</router-link>
         </li>
       </ul>
     </div>

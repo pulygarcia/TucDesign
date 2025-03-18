@@ -65,7 +65,7 @@ const slides = [
   { id: 'two', color: 'bg-orange-700', image: imageTrigger2, title: 'Animáte', subtitle: 'Mirá tu hogar como nunca' },
   { id: 'three', color: 'bg-emerald-700', image: imageTrigger3, title: 'Diseño único', subtitle: 'Modernismo y calidad' },
   { id: 'four', color: 'bg-indigo-700', image: imageTrigger4, title: 'Minimalismo', subtitle: 'Simpleza y elegancia' },
-  { id: 'five', color: 'bg-pink-700', image: imageTrigger5, title: 'Materiales', subtitle: 'Productos de alta calidad' },
+  { id: 'five', color: 'bg-pink-700', image: imageTrigger5, title: 'Calidad y Confort', subtitle: 'Materiales premium' },
 ]
 </script>
 
