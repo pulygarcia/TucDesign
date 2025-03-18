@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import image2 from '@/assets/tokyo-2.avif'
-import IconStars from './icons/IconStars.vue'
+import IconStars from './icons/IconFinished.vue'
 import IconHeart from './icons/IconHeart.vue'
 </script>
 <template>

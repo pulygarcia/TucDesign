@@ -70,7 +70,7 @@ const menuItems = [
   { name: 'Inicio', route: '/' },
   { name: 'Sobre nosotros', route: '/about' },
   { name: 'Clientes', route: '/testimonials' },
-  { name: 'Trabajos realizados', route: '/Places-touristiques' },
+  { name: 'Trabajos realizados', route: '/done-works' },
   { name: 'Contact', route: '/contact' }
 ]
 
@@ -94,7 +94,7 @@ const leave = (event: MouseEvent) => {
     >
       <ul class="fixed px-5 md:px-20  bg-white shadow-md backdrop-blur-sm items-center w-full flex justify-between py-3 space-x-5 z-50">
         <li class="cursor-pointer">
-          <router-link to="/" class="text-3xl">Tucuman Desgin <span class="block text-xs text-gray-700">Guillermo Argañaraz</span></router-link>
+          <router-link to="/" class="text-3xl">Tucuman Desing <span class="block text-xs text-gray-700">Guillermo Argañaraz</span></router-link>
         </li>
         <li>
           <ul class="flex space-x-10">
@@ -106,7 +106,7 @@ const leave = (event: MouseEvent) => {
                   </a>
                 </li>
                 <li class="border-b-4 py-3 border-transparent">
-                  <a href="https://wa.me/3815429673?text=Hola%2C%20quiero%20más%20información%20sobre%20sus%20servicios" target="_blank">
+                  <a href="https://wa.me/3815429673?text=Hola vengo desde el sitio web" target="_blank">
                     <IconWhatsapp class="text-green-600 w-7 h-7 relative z-10"/>
                   </a>
                 </li>
